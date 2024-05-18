@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outermainhead{
+    background: black url('./assets/file/images/Layer432.png') no-repeat center fixed;
+    padding: 0 5vw;
+    background-size: cover;
+}
+.uppernav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 0;
+}
+.rightuppernav ul{
+    list-style: none;
+    gap: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+}
+.herocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    padding-top: 6vh;
+}
+.rightherocontainer img{
+    width: 12vw;
+
+}
+.upperleftherocontainer{
+    color: #fff;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+}
+.bold{
+    font-weight: bold;
+}
+.downleftherocontainer{
+    color: #fff;
+    font-size: 1.7vw;
+    padding: 2vh 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.leftherocontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vh;
+}
+.buttonleftherocontainer button{
+    background-color: transparent;
+    padding: 2vh 3.5vw;
+    color: #fff;
+}
+.outerdownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding: 10vh 0 18vh;
+    background-color: rgb(0, 85, 255);
+    flex-direction: column;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);}
+
+.buttonouterdownload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 2vh;
+}
+.buttonset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh 4vw;
+    gap: 2vw;
+    color: #fff;
+    background-color: transparent;
+}
+.upperouterdownload{
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.descouterdownload{
+    color: #fff;
+    font-size: 1.5vw;
+}
+.outerfeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22vw;
+    padding: 6vh 0;
+}
+
+.leftouterfeatures{
+    display: flex;
+    gap: 6vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upperleftouterfeatures{
+    color: #000;
+    font-size: 3vw;
+}
+.downleftouterfeatures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8vh;
+}
+.firstdownleftouterfeatures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;
+}
+.iconf{
+    display: flex;
+    gap: 1.5vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconf img{
+    border: 0.5px solid rgb(0, 85, 255);
+    border-radius: 50%;
+    padding: 1.5vw;
+}
+
+.outerchoose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding: 20vh 0 24vh;
+    background: rgb(0, 85, 255) url('./assets/file/images/outer.png') no-repeat center fixed;
+    background-size: cover;
+    flex-direction: column;
+    color: #fff;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+.alldownouterchoose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9vw;
+    padding: 2vh 6vw;
+}
+.leftalldownouterchoose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9vh;
+    text-align: right;
+    font-size: 1.5vw;
+}
+.upperouterchoose{
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.downouterchoose{
+    font-size: 1.5vw;
+}
+.rightalldownouterchoose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9vh;
+    text-align: left;
+    font-size: 1.5vw;
+}
+.firstleftalldownouterchoose{
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.outerscreen{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    padding: 15vh 0;
+}
+.upperouterscreen{
+    color: #000;
+    font-size: 2.5vw;
+}
+.downouterscreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.downouterscreen button{
+    padding: 1.2vw;
+    background-color: transparent;
+    border: 1px solid rgb(0, 85, 255);
+    border-radius: 50%;
+}
+.outervideo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding: 20vh 0 24vh;
+    background: rgb(0, 85, 255) url('./assets/file/images/outer.png') no-repeat center fixed;
+    background-size: cover;
+    flex-direction: column;
+    color: #fff;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+
+}
+.upperoutervideo{
+    font-size: 3vw;
+}
+.outerupdate{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+    padding: 15vh 0;
+
+}
+.upperouterupdate{
+    font-size: 3vw;
+    color: #000;
+}
+.downouterupdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+
+}
+.iconp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw;
+    background-color: greenyellow;
+    border-radius: 50%;
+    /* gap: 1vh; */
+    color: #fff;
+}
+.red{
+    background-color: rgb(0, 85, 255);
+}
+.upperinputouter h5{
+    font-size: 1.3vw;
+}
+.inputouter{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+}
+.inputouter button{
+    padding: 1.5vh 3vw;
+    background-color: transparent;
+    border: 1px groove #000;
+}
+.upperinputouter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2vh;
+}
+.upperinputouter input{
+    height: 5vh ;
+    width: 100%;
+}
+.leftalldownouterchoosesp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3vh;
+    text-align: right;
+    font-size: 1.5vw;
+}
+.upperouterscreen img{
+    background-color: rgb(0, 85, 255);
+    padding: 1vh 2vw;
+}
+
+.leftalldownouterchoosesp input{
+    height: 6vh;
+    width: 100%;
+    border: none;
+
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+textarea{
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: currentcolor;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.leftalldownouterchoosesp button{
+    padding: 1.5vh 3vw;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+
+}
+.upperrightalldownouterchoose{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vh;
+    font-size: 3vw;
+}
+.upperrightalldownouterchoose img{
+    border-radius: 50%;
+    width: 14vw;
+    
+}
+.online{
+    background-color: green;
+    color: #fff;
+    padding: 1vh 1.5vw;
+    border-radius: 2vw;
+}
+
+.start{
+    padding: 1.5vh 3vw;
+    background-color: transparent;
+    border: 1px groove #fff;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 900px) {
+    .outerfeatures {
+        
+        flex-direction: column-reverse;
+      }
+    
+}
+
+@media screen and (max-width:700px) {
+    .alldownouterchoose {
+       font-size: 1.5vw;
+        gap: 5vw;
+       
+        flex-direction: column-reverse;
+      }
+      .downouterupdate {
+        
+        flex-direction: column;
+      }
+    .uppernav {
+        
+        flex-direction: column;
+        gap: 3vh;
+      }
+      .herocontainer {
+       
+        
+        padding: 6vh 0;
+      }
+    
+}
+
+@media screen and (max-width: 478px){
+    .rightuppernav ul {
+        
+        font-size: 2.6vw;
+      }
+      .herocontainer {
+        
+        flex-direction: column-reverse;
+        padding: 3vh 0;
+      }
+    
+}
+.orange{
+    background-color: orangered;
+}
+.iconsdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+}
+.downoutervideo{
+    background: url('./assets/file/images/video3.jpg') no-repeat center;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
